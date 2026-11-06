@@ -1,5 +1,6 @@
 # Proxy-Expansion for PlaceholderAPI
-- This is a PlaceholderAPI expansion, not a plugin. Download the jar from the **Releases** tab and upload it to `plugins/PlaceholderAPI/expansions`
+- This is a PlaceholderAPI expansion, not a plugin!
+- Download the jar from the [Releases tab](https://github.com/konfix/Proxy-Expansion/releases) and upload it to `plugins/PlaceholderAPI/expansions`, then reload with `/papi reload`
 - **Folia-compatible**
 - **Velocity and BungeeCord support** (including most of their forks, such as VelocityGD, VeloFlame, Flamecord and others)
 - Made for modern Minecraft versions. It might not work on older servers.
