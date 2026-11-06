@@ -4,11 +4,14 @@
 - **Velocity and BungeeCord support** (including most of their forks, such as VelocityGD, VeloFlame, Flamecord and others)
 - Made for modern Minecraft versions. It might not work on older servers.
 
-# Placeholders
-- `%proxy_players_<servername>%` (example: `%proxy_players_survival%`) returns the int value of online players on that specific server
-- `%proxy_players_total%` returns the total amount of players on your Velocity or BungeeCord proxy (network)
-- `%proxy_server%` returns the name of the Velocity or BungeeCord server you're connected to (as in config)
-- `%proxy_server_caps%` the same as above, except the first letter is capitalized
+## Placeholders
+
+| Placeholder | Example | Description | Example Output |
+|-------------|---------|-------------|----------------|
+| `%proxy_players_<servername>%` | `%proxy_players_survival%` | Returns the number of online players on the specified server. | `33` |
+| `%proxy_players_total%` | `%proxy_players_total%` | Returns the total number of online players across the Velocity or BungeeCord network. | `153` |
+| `%proxy_server%` | `%proxy_server%` | Returns the name of the server the player is currently connected to, as defined in the proxy configuration. | `survival` |
+| `%proxy_server_caps%` | `%proxy_server_caps%` | Returns the current server name with its first letter capitalized. | `Survival` |
 
 # Credits and License
 - Partly based on and inspired by [PlaceholderAPI's Bungeecord-Expansion](https://github.com/PlaceholderAPI/Bungeecord-Expansion)
