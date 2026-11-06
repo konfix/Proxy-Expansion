@@ -95,6 +95,7 @@ public final class ProxyExpansion extends PlaceholderExpansion implements Plugin
         final String server = parameter.substring("players_".length());
         final int value = switch (server) {
             case "all", "total" -> counts.values().stream().mapToInt(Integer::intValue).sum();
+            case "here" -> counts.getOrDefault(currentServer.toLowerCase(Locale.ROOT), 0);
             default -> counts.getOrDefault(server, 0);
         };
 
