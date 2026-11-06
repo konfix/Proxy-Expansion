@@ -13,5 +13,5 @@
 | `%proxy_server%` | `%proxy_server%` | Returns the name of the server the player is currently connected to, as defined in the proxy configuration. | `survival` |
 | `%proxy_server_caps%` | `%proxy_server_caps%` | Returns the current server name with its first letter capitalized. | `Survival` |
 
-# Credits and License
+# Credits
 - Partly based on and inspired by [PlaceholderAPI's Bungeecord-Expansion](https://github.com/PlaceholderAPI/Bungeecord-Expansion)
