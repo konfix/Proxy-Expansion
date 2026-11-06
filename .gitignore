@@ -1,0 +1,44 @@
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse / Java language server
+.classpath
+.project
+.settings/
+.metadata/
+.factorypath
+
+# Build output and local caches
+target/
+out/
+bin/
+.cache/
+.m2/
+*.class
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+hs_err_pid*
+replay_pid*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
